@@ -178,7 +178,7 @@ margin-bottom: 130px;
     column-gap: 124.17px;
 }
 .fact:hover{
-    transform: rotate(15deg);
+    transform:rotate(15deg);
     background-color: azure;
     color: crimson;
 }
@@ -232,6 +232,7 @@ margin-bottom: 130px;
     border: 1px solid #FF900E;
     width: 250px;
     border-radius: 5px;
+    background-color: azure;
 }
 .employee img{
     width: 56px;
