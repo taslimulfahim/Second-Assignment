@@ -1,0 +1,130 @@
+@media screen and (max-width: 576px) {
+    body {
+        width: 576px;
+        }
+
+/* RESPONSIVE STYLING : NAV BAR */
+.container1{
+    flex-direction: column;
+}
+.logo h3{
+display: flex;
+justify-content: center;
+text-align: center;
+padding: 20px;
+}
+.navs{
+flex-direction: column;
+text-align: center;
+padding: 0px 0px 20px 0px;
+}
+
+/* RESPONSIVE STYLING : HEADER DESCRIPTION */
+.header-des p{
+    text-align: center;
+}
+.banner1 img{
+    width: 100%;
+}
+
+/* RESPONSIVE STYLING: FEATURE SECTION */
+.feature-sec{
+    flex-direction: column;
+}
+.container2{
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
+.feature-des{
+    text-align: center;
+    padding: 50px 100px 50px 100px;
+}
+
+/* RESPONSIVE STYLING: WHAT WE PROVIDE SECTION */
+.container3{
+    flex-direction: column;
+    gap: 40px;
+}
+.services-head{
+    margin-left: 80px;
+    width: 400px;
+}
+.service{
+    width: 400px;
+    margin-left: 80px;
+}
+.service h4{
+    padding: 30px 0px 10px 33px;
+}
+.img-btn{
+    margin-left: 100px;
+}
+.architect{
+    height: 430px;
+}
+.architect img{
+    width: 300px;
+}
+.big-btn{
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.fact-head{
+    padding: 70px 25px 0px 80px;
+}
+.fact-des{
+    padding: 15px 100px 100px 80px;
+}
+
+/* RESPONSIVE STYLING: FACT SECTION */
+.container4{
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+/* RESPONSIVE STYLING: EMPLOYEE SECTION/BONUS SECTION */
+.employee-head{
+    padding: 0px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+}
+.container5{
+    grid-template-columns: repeat(1, 1fr);
+}
+
+/* RESPONSIVE STYLING: SPONSOR SECTION */
+.sponsors{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.spotify{
+    margin-left: 0px;
+}
+.figma{
+    margin-right: 0px;
+}
+
+/* RESPONSIVE STYLING: FOOTER SECTION */
+.footer-sec{
+    margin-bottom: 50px;
+}
+.footer{
+    width: 350px;
+}
+.footer-sec{
+    padding: 0px 100px 0px 100px;
+}
+.footer p{
+    padding: 38px 0px 0px 0px;
+}
+
+}

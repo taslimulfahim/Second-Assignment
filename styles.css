@@ -306,19 +306,4 @@ margin-bottom: 130px;
     padding: 39px 0px 38px 0px;
 }
 
-/* MEDIA QUERIES */
-@media only screen and (max-width: 576px) {
-.logo h3{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding: 20px;
-}
-.container1{
-    flex-direction: column;
-}
-
-}
-
-
 
